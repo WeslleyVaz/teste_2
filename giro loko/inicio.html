@@ -12,7 +12,6 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="style_inicio.css">
 
 </head>
 
@@ -39,9 +38,9 @@
                             Filtro
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Bike de rua</a></li>
-                            <li><a class="dropdown-item" href="#">Montain bike</a></li>
-                            <li><a class="dropdown-item" href="#">Bike de manobra</a></li>
+                            <li><a class="dropdown-item" href="#" id="ruabtn">Bike de rua</a></li>
+                            <li><a class="dropdown-item" href="#" id="montainbtn">Montain bike</a></li>
+                            <li><a class="dropdown-item" href="#" id="manobrabtn">Bike de manobra</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -49,13 +48,15 @@
         </div>
     </nav>
 
-
+    <div class="titulo">
         <h1>OFERTAS DO DIA</h1>
+    </div>
 
     <div class="bikes">
-
+        
+        <div class="manobra">
         <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../imagens/ouro.jpg" class="card-img-top" alt="bike azul">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -63,11 +64,13 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
+        </div>
 
         <br>
 
+        <div class="montain">
         <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../imagens/bege.jpg" class="card-img-top" alt="bike azul">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -75,56 +78,40 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
+        </div>
 
         <br>
 
+        <div class="manobra">
         <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../imagens/branca.jpg" class="card-img-top" alt="bike branca">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card’s content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-
-            <br>
-
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-            <br>
-
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-
-                <br>
-
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card’s content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+        </div>
+        </div>
+            
 
             
     </div>
 
-</body>
 
+
+
+
+
+
+
+
+
+<!--css-->
+<link rel="stylesheet" href="style_inicio.css"> 
+<!--javascript-->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="filtro.js"></script>
+
+</body>
 </html>
