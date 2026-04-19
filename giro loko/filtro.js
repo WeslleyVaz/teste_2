@@ -1,17 +1,23 @@
 $("#manobra").click(function() {
     $(".manobra").show();
-    $(".Montain").hide();
+    $(".montain").hide();
     $(".rua").hide();
 });
 
 $("#montain").click(function () {
     $(".manobra").hide();
     $(".rua").hide();
-    $(".Montain").show();
+    $(".montain").show();
 });
 
 $("#rua").click(function() {
     $(".manobra").hide();
     $(".rua").show();
-    $(".Montain").hide();
+    $(".montain").hide();
 });
+
+$("#todos").click(function () {
+     $(".manobra").show();
+    $(".rua").show();
+    $(".montain").show();
+})
