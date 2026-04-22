@@ -6,7 +6,7 @@ body{
    height: 100vh;
 
 
-   background-image: url("giro.loko.png") !important;
+   background-image: url("../imagens/giro.loko.png") !important;
     background-size: 50% !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
